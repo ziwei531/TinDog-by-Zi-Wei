@@ -204,6 +204,11 @@ p {
 .fa-facebook{
   color: black;
 }
+
+.fa-github{
+  color: black;
+}
+
 .fa-facebook:hover {
   color: #ee2727;
 }
