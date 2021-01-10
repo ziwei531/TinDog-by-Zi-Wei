@@ -1,0 +1,387 @@
+/* first section */
+.heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5rem;  
+    line-height: 1.5; 
+    font-weight: 900;
+    color: white;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    /*topleft 3% leftright 15%*/
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  position:absolute;
+  width: 60%;
+}
+
+/* second section */
+
+#features {
+  position: relative;
+  background: white;
+  z-index: 1;
+}
+
+.h3-second-section{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.p-second-section {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 4.5%;
+    text-align: center;
+}
+
+.mx {
+    margin: 1.5em;
+}
+
+/* ICONS */
+.fa-check-circle {
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #ef8172;
+}
+
+.fa-bullseye {
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #ef8172;
+}
+
+.fa-heart {
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #ef8172;
+}
+
+.fa-heart:hover {
+    color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+    color: #ff4c68;
+}
+
+.fa-check-circle:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.h2-pricing{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.h2-testimonials {
+  font-family: "Mondserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card {
+  height: 100%;
+}
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* .card {
+  height: 100%;
+  width: 100%;
+} */
+
+.card-deck {
+  position: relative;
+}
+
+/* cta */
+#cta {
+  padding: ;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 10%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.btn-cta {
+  padding-top: 5% ;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+
+.footer-icons {
+  font-size: 3.5rem;
+}
+
+.fa-facebook{
+  color: black;
+}
+.fa-facebook:hover {
+  color: #ee2727;
+}
+
+.fa-github:hover {
+  color: #ee2727;
+}
+/* If the screen size is 601px wide or more */
+
+@media screen and (min-width: 1028px){
+  .heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .iphone {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .heading {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+  }
+@media screen and (max-width: 480px) {
+  .h2-testimonials {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Flow text*/
+/* @media only screen and (min-width: 360px) {
+    .flow-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media only screen and (min-width: 390px) {
+    .flow-text {
+      font-size: 1.224rem;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) {
+    .flow-text {
+      font-size: 1.248rem;
+    }
+  }
+  
+  @media only screen and (min-width: 450px) {
+    .flow-text {
+      font-size: 1.272rem;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .flow-text {
+      font-size: 1.296rem;
+    }
+  }
+  
+  @media only screen and (min-width: 510px) {
+    .flow-text {
+      font-size: 1.32rem;
+    }
+  }
+  
+  @media only screen and (min-width: 540px) {
+    .flow-text {
+      font-size: 1.344rem;
+    }
+  }
+  
+  @media only screen and (min-width: 570px) {
+    .flow-text {
+      font-size: 1.368rem;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .flow-text {
+      font-size: 1.392rem;
+    }
+  }
+  
+  @media only screen and (min-width: 630px) {
+    .flow-text {
+      font-size: 1.416rem;
+    }
+  }
+  
+  @media only screen and (min-width: 660px) {
+    .flow-text {
+      font-size: 1.44rem;
+    }
+  }
+  
+  @media only screen and (min-width: 690px) {
+    .flow-text {
+      font-size: 1.464rem;
+    }
+  }
+  
+  @media only screen and (min-width: 720px) {
+    .flow-text {
+      font-size: 1.488rem;
+    }
+  }
+  
+  @media only screen and (min-width: 750px) {
+    .flow-text {
+      font-size: 1.512rem;
+    }
+  }
+  
+  @media only screen and (min-width: 780px) {
+    .flow-text {
+      font-size: 1.536rem;
+    }
+  }
+  
+  @media only screen and (min-width: 810px) {
+    .flow-text {
+      font-size: 1.56rem;
+    }
+  }
+  
+  @media only screen and (min-width: 840px) {
+    .flow-text {
+      font-size: 1.584rem;
+    }
+  }
+  
+  @media only screen and (min-width: 870px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .flow-text {
+      font-size: 1.632rem;
+    }
+  }
+  
+  @media only screen and (min-width: 930px) {
+    .flow-text {
+      font-size: 1.656rem;
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    .flow-text {
+      font-size: 1.68rem;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .flow-text {
+      font-size: 1.2rem;
+    }
+  } */
